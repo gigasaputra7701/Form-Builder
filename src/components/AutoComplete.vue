@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center gap-4 justify-center">
-    <label class="font-semibold" for="name">{{ field.label }} :</label>
+    <label class="font-semibold" for="name">{{ field.label }}</label>
     <select
       class="p-2 border rounded-sm"
       :name="field.label"

@@ -1,6 +1,6 @@
 <template>
   <div class="flex gap-4 justify-center items-center">
-    <label class="font-semibold" for="gender">{{ field.label }} :</label>
+    <label class="font-semibold" for="gender">{{ field.label }}</label>
     <div class="flex items-center space-x-6 mt-6">
       <label
         v-for="option in field.options"
